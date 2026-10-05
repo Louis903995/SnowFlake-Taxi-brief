@@ -1,22 +1,24 @@
-# Secrets
+# Secrets 
 .env
 *.p8
 *.pem
-*.pub
-
-# Données téléchargées
-*.parquet
-*.csv
+rsa_key*
 
 # Python
 .venv/
 __pycache__/
-*.pyc
 
 # Airflow / Astro
-airflow/.astro/
-airflow/airflow_settings.yaml
+logs/
+.astro/
+airflow_settings.yaml
 
-# Éditeur / système
-.vscode/
+
+# Fichiers téléchargés
+*.parquet
+taxi_zone_lookup.csv
 .DS_Store
+
+# Ajouts personnels
+.vscode/
+*.pyc
