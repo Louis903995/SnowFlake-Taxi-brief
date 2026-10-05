@@ -1,0 +1,22 @@
+# Secrets
+.env
+*.p8
+*.pem
+*.pub
+
+# Données téléchargées
+*.parquet
+*.csv
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Airflow / Astro
+airflow/.astro/
+airflow/airflow_settings.yaml
+
+# Éditeur / système
+.vscode/
+.DS_Store
